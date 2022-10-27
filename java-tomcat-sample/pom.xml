@@ -17,10 +17,12 @@
   </dependencies>
   <build>
     <finalName>java-tomcat-maven-example</finalName>
+    </pluginManagement>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-dependency-plugin</artifactId>
+        <version>3.2.2</version>
         <executions>
           <execution>
             <phase>package</phase>
@@ -39,5 +41,6 @@
         </executions>
       </plugin>
     </plugins>
+   </pluginManagement>
   </build>
 </project>
